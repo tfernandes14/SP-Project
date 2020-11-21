@@ -179,26 +179,26 @@ class homomorphic_encryption():
         plt.xlabel("Data's Size")
         plt.ylabel("Time in seconds")
         plt.title("Calculate Sum")
-        fig.savefig('Plots/Calculate_Sum.jpg', bbox_inches='tight', dpi=150)
+        fig.savefig('Plots/Homomorphic/Calculate_Sum.png', bbox_inches='tight', dpi=150)
         plt.show()
 
         
-        plt.figure()
+        fig = plt.figure()
         plt.scatter(self.x_plot,self.time_max)
         plt.plot(self.x_plot,self.time_max)
         plt.xlabel("Data's Size")
         plt.ylabel("Time in seconds")
         plt.title("Find max value Data")
-        fig.savefig('Plots/Calculate_Min.jpg', bbox_inches='tight', dpi=150)
+        fig.savefig('Plots/Homomorphic/Calculate_Min.png', bbox_inches='tight', dpi=150)
         plt.show()
         
-        plt.figure()
+        fig = plt.figure()
         plt.scatter(self.x_plot,self.time_min)
         plt.plot(self.x_plot,self.time_min)
         plt.xlabel("Data's Size")
         plt.ylabel("Time in seconds")
         plt.title("Find min value Data")
-        fig.savefig('Plots/Calculate_Max.jpg', bbox_inches='tight', dpi=150)
+        fig.savefig('Plots/Homomorphic/Calculate_Max.png', bbox_inches='tight', dpi=150)
         plt.show()
         
 
@@ -243,7 +243,7 @@ class homomorphic_encryption():
 
 if __name__ == "__main__":
     covid_data = pd.read_csv("full_grouped.csv")
-    encrypted_obj = homomorphic_encryption(covid_data["New cases"])
+    encrypted_obj = homomorphic_encryption(covid_data["New cases"].head(20000))
     encrypted_obj.calculate_max()
     encrypted_obj.calculate_min()
     encrypted_obj.calculate_sum()
