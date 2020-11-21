@@ -223,7 +223,7 @@ class homomorphic_encryption():
         plt.xlabel("Data's Size")
         plt.ylabel("Time in seconds")
         plt.title("Calculate Sum")
-        fig.savefig('Plots/Calculate_Sum.jpg', bbox_inches='tight', dpi=150)
+        fig.savefig('Plots/Homomorphic/Calculate_Sum.png', bbox_inches='tight', dpi=150)
         plt.show()
 
         
@@ -233,7 +233,7 @@ class homomorphic_encryption():
         plt.xlabel("Data's Size")
         plt.ylabel("Time in seconds")
         plt.title("Find max value Data")
-        fig.savefig('Plots/Calculate_Min.jpg', bbox_inches='tight', dpi=150)
+        fig.savefig('Plots/Homomorphic/Calculate_Min.png', bbox_inches='tight', dpi=150)
         plt.show()
         
         fig = plt.figure()
@@ -242,7 +242,7 @@ class homomorphic_encryption():
         plt.xlabel("Data's Size")
         plt.ylabel("Time in seconds")
         plt.title("Find min value Data")
-        fig.savefig('Plots/Calculate_Max.jpg', bbox_inches='tight', dpi=150)
+        fig.savefig('Plots/Homomorphic/Calculate_Max.png', bbox_inches='tight', dpi=150)
         plt.show()
 
         fig = plt.figure()
