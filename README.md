@@ -7,5 +7,5 @@ This project was divided in two assignments:
 - Searchable Encryption
 
 ### Assignment 2
-- Differencial Privay
+- Differencial Privacy
 - Syntactic models to improve privacy
