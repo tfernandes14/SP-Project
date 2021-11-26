@@ -1,0 +1,9 @@
+- Preparação dos dados: "Build-Dataset-and-Analysis.ipynb"
+- Dataset: "dataset_final.csv"
+- Primeira análise dos dados: no início de cada ficheiro de relatório (ou "Analise_inicial.png")
+- Exercício 1:
+    - Relatório: "Projeto 2 - Exercício 1.pdf"
+- Exercício 2:
+    - Código: "Exercise 2 - Differencial Privacy.ipynb"
+    - Gráficos: "Exercise 2 - Differencial Privacy.pdf"
+    - Relatório: "Exercise 2 - Differencial Privacy.pdf"
